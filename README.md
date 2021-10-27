@@ -11,4 +11,4 @@ SEO Friendly
 
 ## On the next update
 
-Automotic add serial movies
+Automatic add serial movies
