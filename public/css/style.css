@@ -1,0 +1,42 @@
+.label-image-top {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.label-image-bottom {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.img-overflay {
+    position: relative;
+}
+
+.mobileShow {
+    display: none;
+}
+
+.mobileHide {
+    display: inline;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileShow {
+        display: inline;
+    }
+    .desc_view {
+        text-align: center;
+    }
+    .mobileHide {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 480px) {
+    .desc_view {
+        width: 300px;
+    }
+}
